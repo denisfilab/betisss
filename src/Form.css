@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .boat-form {
+    background-color: #262626;
+    width: 40vh;
+    height: auto;
+    border: 1px solid #de054b;
+    border-radius: 8px;
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .boat-form label {
+    margin-bottom: 10px;
+  }
+  
+  .boat-form input[type='text'],
+  .boat-form input[type='number'] {
+    width: calc(100% - 20px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .boat-form input[type='checkbox'] {
+    margin-right: 5px;
+  }
+  
+  .boat-form button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #de054b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boat-form button:hover {
+    background-color: #ff4f78;
+  }
+  
