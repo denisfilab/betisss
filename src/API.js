@@ -1,6 +1,6 @@
 const BASE_URL = 'https://oprec-betis-be.up.railway.app';
 
-const apiKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzYjBlYjRmMy0xZjMzLTRkZTEtYjY4OS0wYjE4ZGYxYzMxOTMiLCJpZCI6IjNiMGViNGYzLTFmMzMtNGRlMS1iNjg5LTBiMThkZjFjMzE5MyIsInVzZXJuYW1lIjoiZGVuaXMiLCJpYXQiOjE3MDI3MDIyMDAsImV4cCI6MTcwNTI5NDIwMH0.UaFtozvExMdL-VPBIYdwmMIVERUoYySdMcBuiXKU2rM'
+const apiKey = ''
 export const fetchBoats = async () => {
   try {
     const response = await fetch(`${BASE_URL}/perahu`, {
